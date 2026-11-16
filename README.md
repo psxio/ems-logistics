@@ -1,15 +1,15 @@
 # Elite Medical Response Management
 
-Public site: https://psxio.github.io/ems-logistics/
+Public site: http://elitemedicalresponse.net/
 Interactive demo: https://psxio.github.io/ems-logistics/demo.html
 
-`index.html` is the public Elite Medical Response Management website. Its ride inquiries open the supplied dispatch number; email links open the supplied business address. The page has no online booking form. `site.js` controls the responsive menu.
+`index.html` is the public Elite Medical Response Management website. Its ride inquiries open the supplied dispatch number; email links open dispatch@elitemedicalresponse.net. The callback form posts contact-only inquiries to FormSubmit for dispatch email delivery and requires recipient activation. It is not a booking confirmation or medical intake form. `site.js` controls the responsive menu.
 
 `Elite-Medical-Service-Overview.pdf` is the one-page public service guide. The previous `EMS-Logistics-Simple-Plan.pdf` URL serves the same guide so existing shared links continue to work.
 
 `demo.html`, `demo.js`, and `demo.css` preserve the separate sample-data workflow prototype. It is not linked from the public homepage, and its records are not real bookings. The six workflows remain available for future backend integration.
 
-No custom domain has been configured yet. The site and its internal asset links work beneath the existing GitHub Pages path or a future domain.
+The custom domain elitemedicalresponse.net is configured. HTTPS certificate issuance was still pending on November 16, 2026. The site and its internal asset links work beneath the existing GitHub Pages path or a future domain.
 
 ## Demo functions
 - Three-step patient/family or provider ride request.
